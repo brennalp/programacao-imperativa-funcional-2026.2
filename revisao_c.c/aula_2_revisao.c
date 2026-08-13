@@ -17,4 +17,6 @@ int main () {
 
     scanf("Digite seu peso: %f\n", &peso);
     printf("Peso: %f\n", peso);
+
+    return 0;
 }
