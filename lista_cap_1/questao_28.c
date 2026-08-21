@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -17,6 +18,8 @@ int main()
     media = (nota1+nota2+nota3)/3;
 
     printf("\nA nota do aluno: %.2f", media);
+
+    system("PAUSE");
 
     return 0;
 }

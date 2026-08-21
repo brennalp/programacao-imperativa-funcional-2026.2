@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() 
 {
@@ -10,6 +11,8 @@ int main()
     printf("\nCanetas\t%12.2f", canetas);
     printf("\nCadernos\t%12.2f", cadernos);
     printf("\nFitas\t%12.2f", fitas);
+
+    system("PAUSE");
 
     return 0;
 }

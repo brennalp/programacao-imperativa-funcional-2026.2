@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() 
 {
@@ -7,6 +8,8 @@ int main()
     printf("Primeiro programa");
     /*printf "Primeiro programa; -> única linha com erro sintático"*/
 
+    system("PAUSE");
+    
     return 0;
 }
 
