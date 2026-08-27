@@ -12,3 +12,10 @@ int main ()
 
     return 0;
 }
+
+/*
+se um float for atribuído a um int, a parte decimal vai ser cortada
+fortemente tipado - local de memoria com qtd de bytes previamente definida
+mais lixo de memoria em ling fortemente tipadas - garbage colector em java 
+mais problemas em ling fracamente tipada - padrões de projeto que dependem de tipo (gambiarra pra se adaptar)
+*/
