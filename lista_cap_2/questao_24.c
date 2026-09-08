@@ -6,7 +6,7 @@ int main(){
     float v_metros, v_km;
 
     printf("Digite a velocidade em km/h: ");
-    scanf("%f", v_km);
+    scanf("%f", &v_km);
 
     v_metros = v_km/3.6;
 
