@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main() {
 
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+    
     float comprimento, largura, preço_metro, perimetro, arame, custo_total;
 
     printf("Digite o comprimento do terreno: ");

@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main(){
+
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
 
     float raio, area, volume;
     const float PI = 3.141593;

@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main () {
 
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+    
     int dia, mes, ano;
     printf("Digite uma data no formato dd/mm/aa: ");
     scanf("%d%*c%d%*c%d", &dia, &mes, &ano);

@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main(){
+
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
 
     const float GRAT=0.05, IMP=0.07; //constantes de gratificação e imposto
     float sal_base, sal_bruto, sal_liquido;

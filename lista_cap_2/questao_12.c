@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main(){
+    
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
 
     int num, sucessor, antecessor;
 
@@ -35,4 +39,4 @@ sucessor = ++num;
 
 Funciona, mas isso faz com que a variável seja alterada diretamente e torna a lógica mais complexa sem necessidade. O ideal é fazer a cópia
 e depois incrementar/decrementar 
-;*/
+*/

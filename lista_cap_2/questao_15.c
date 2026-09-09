@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main(){
+    
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
 
     float nota1, nota2, nota3, nota4, media_aritmetica, media_ponderada;
 

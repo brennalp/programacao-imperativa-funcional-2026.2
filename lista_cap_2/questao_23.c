@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main() {
+
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+
     int hora, minuto, segundo, duracao_total;
     int tempo_total, hora_final, minuto_final, segundo_final;
 
