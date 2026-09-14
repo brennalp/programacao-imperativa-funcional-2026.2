@@ -17,4 +17,6 @@ x%4 = [0,1,2,3,4]
 inteiro pode ser armazenado no float, mas o contrário o int vai cortar a parte decimal
 
 dado = (rand(x)%6)+1 
+
+tudo é int porque pra transformar em linguagem de maquina é mais facil
 */

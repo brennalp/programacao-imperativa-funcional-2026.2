@@ -16,7 +16,7 @@ int main () /*função do tipo inteiro*/
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 
-    printf("\tEste é o número %5d.\n", 5);
+    printf("\tEste é o número %5d.\n", 5); //%5d aumenta a quantidade de espaços 
     system("PAUSE"); /* função do C que se comunica com SO para so depois fechar o programa */
 
     return 0;
