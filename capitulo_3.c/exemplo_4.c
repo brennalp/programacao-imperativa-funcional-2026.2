@@ -14,6 +14,16 @@ int main() {
    //também é possível omitir elas e os 3 ; devem permanecer
    //expressão de iniciar/incremento omitidas: são ignoradas
    //expressão teste omitida: considerada permamentemente verdadeira
+
+   /*
+   espera o caractere
+   se for diferente de X, a proxima letra vai ser printada
+   e espera o caractere de novo e sobrescreve 
+   enquanto for diferente de x vai ficar executando
+   pode fazer funções e colocar nas expressões
+
+   ( ; (ch=getch())!="X"; ) - funciona igual
+   */
     for (ch=getch(); ch!="X"; ch=getch()){
         printf("\n%c", ch+1);
     }

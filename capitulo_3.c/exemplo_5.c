@@ -44,4 +44,6 @@ while(teste){
    Razões para usar: legibilidade - ler a expressão de teste antes de percorrer o laço ajuda o leitor a interpretar facilmente o sentido do bloco
    e a possibilidade de executar pelo menos uma vez mesmo sendo falso 
 
+   no do while não precisa inicializar a confirmação porque vai fazer pelo menos uma vez
+
 */
