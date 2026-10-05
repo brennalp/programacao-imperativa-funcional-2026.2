@@ -1,0 +1,5 @@
+a) A diferença entre while e do-while reside em que o do-while irá executar o código pelo menos uma vez antes de fazer o teste, enquanto que o while só executa se o teste já for verdadeiro.
+
+b)O laço for é superior ao while quando se sabe a quantidade de vezes que aquele bloco de código será executado e então é possível reunir as expressões de inicialização, de teste e incremento em uma única linha, ou seja, dentro do parênteses do for. Dessa forma, o código reúne de forma mais eficiente as variáveis necessárias para o laço e segue as boas práticas de programação.
+
+c) O techo de código corresponde a um erro de lógica, pois o while consegue funcionar desde que tenha a condição e o bloco, que pode ser um ponto e vírgula e estar sem chaves pois é uma instrução única. Contudo, o ponto e vírgula representa uma instrução vazia, por isso não irá executar nada no terminal. Assim, ele irá repetir o vazio infinitamente caso a instrução seja verdadeira. 
