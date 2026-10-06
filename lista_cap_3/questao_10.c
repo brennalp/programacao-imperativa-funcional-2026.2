@@ -7,7 +7,7 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
     
-    for (int i = 1; i <= 100; i+=3) {
+    for (int i = 0; i <= 100; i+=3) {
 
         printf("%d\t", i);
 
