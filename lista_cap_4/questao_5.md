@@ -1,0 +1,5 @@
+a) Saída: a = 0, b = 5, c = 8. Isso acontece porque a primeira condição (a != 0) é falsa, já que a = 0. Como o operador && exige que ambas as condições sejam verdadeiras, a segunda condição (++b > 5) não será avaliada. Portanto, b permanece igual a 5 e o programa executa o else, subtraindo 2 de c, que passa de 10 para 8.
+
+b) A avaliação de curto-circuito acontece quando o programa deixa de avaliar a segunda expressão de uma operação lógica porque o resultado já pode ser determinado pela primeira. No operador E (&&), se a primeira condição for falsa, a segunda não será avaliada, pois o resultado já será falso. No operador OU (||), se a primeira condição for verdadeira, a segunda não será avaliada, pois o resultado já será verdadeiro. (DÚVIDA)
+
+c) Se a condição fosse alterada para if (a == 0 || ++b > 5), a primeira expressão seria verdadeira, pois a = 0. Como o operador || exige que apenas uma condição seja verdadeira, a segunda expressão não será avaliada e o incremento ++b não acontecerá. Assim, b permanecerá igual a 5 e c receberá um acréscimo de 10, passando de 10 para 20.
