@@ -11,7 +11,12 @@ se n retorna nada, coloca um void
 quando precisa mudar, é so em um lugar -> reutilização de código 
 
 biblioteca em C - arquivo .h 
-#include "tempC.h"
+#include "tempC.h" - para um melhor reuso do software 
+
+void - n tem retorno
+não dá conflito quando as variáveis estão em escopos diferentes e podem ter nomes diferentes
+não é recomendável fazer a função n main 
+
 */
 
 float celsiusParaF(float celsius){ // estrutura obrigatória, parametro - aquilo q ela recebe
