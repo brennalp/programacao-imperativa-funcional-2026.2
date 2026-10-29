@@ -15,8 +15,9 @@ biblioteca em C - arquivo .h
 
 void - n tem retorno
 não dá conflito quando as variáveis estão em escopos diferentes e podem ter nomes diferentes
-não é recomendável fazer a função n main 
+não é recomendável fazer a função no main 
 
+só tem um único valor a retornar mas vários parametros
 */
 
 float celsiusParaF(float celsius){ // estrutura obrigatória, parametro - aquilo q ela recebe
