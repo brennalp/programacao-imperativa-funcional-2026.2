@@ -32,3 +32,19 @@ int calcMDC(int maior, int menor){
     }
     //(n==1) ? 1 : n*calcFatorial(n-1)
 }
+
+//fibonacci - critério de parada é o zero e o 1, porque ele sempre vai pegar dois números
+//Fn = Fn-1+Fn-2
+//numero é a posição 
+//caso se coloque uma posição definida, como ir até a posição 25, é melhor colocar uma condição dentro do algoritmo
+//os criterios de parada sempre serão os mesmos para o problema matemático definido 
+
+int calcFibonacci(int num){
+    if (num == 0){
+        return 0;
+    } else if (num == 1){
+        return 1;
+    } else{
+        return calcFibonacci(num-1)+calcFibonacci(num-2);
+    }
+}
